@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#5efceb , #736efe);
+}
+
+#titulo1{
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 90px;
+}
+
+.fechastitulo {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Inputs {
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px;
+}
+
+#imagenMas{
+  width: 50px;
+  height: 50px;
+}
+
+#eliminar{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#eliminar:hover{
+  background-color: antiquewhite;
+  color: black;
+}
+
+#editar{
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#editar:hover{
+  background-color: antiquewhite;
+  color: black;
+}
+
+#botonAñadir{
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#botonAñadir:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+  border-color: transparent;
+}
+
+ul {
+  background-color: white;
+  border-radius: 10px;
+}
+
